@@ -7,3 +7,7 @@
 2. 提供点击图标后“MDN简易搜索”功能。
 3. 提供点击图标后“MDN页面英转中”快捷按钮。
 4. 在网页内任意选中文字，都可以“右键快捷搜索MDN”。
+
+# Download
+
+[download](https://chrome.google.com/webstore/detail/hfffaichhdiofdfncilijklpeohdaaeg)
