@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MDN</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 200px;
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 12px;
+        padding: 10px;
+      }
+      #searchInput, #searchBtn, #translate{
+        font-size: 12px;
+        padding: 5px;
+      }
+      #search{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 10px;
+      }
+
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+      #warning{
+        margin-left: 10px;
+        color:#ee8888;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="search">
+      <input type="text" id="searchInput" placeholder="回车键确认" autofocus="autofocus">
+      <button id="searchBtn">Go</button>
+    </div>
+    <div>
+      <button id="translate">英翻中</button>
+      <span id="warning" >不是英文MDN网页！</span>
+    </div>
+    
+
+  </body>
+  <script src="popup.js"></script>
+</html>
