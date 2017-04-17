@@ -9,9 +9,9 @@
 4. 在网页内任意选中文字，都可以“右键快捷搜索MDN”。
 
 # Preview
-!(界面)[/preview/demo1.png]
-!(界面)[/preview/demo2.png]
-!(界面)[/preview/demo5.png]
+![界面1](/preview/demo1.png)
+![界面2](/preview/demo2.png)
+![界面3](/preview/demo5.png)
 
 # Download
 
